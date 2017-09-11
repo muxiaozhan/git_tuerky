@@ -33,7 +33,7 @@ class MyTestSuite(unittest.TestCase):
         print("start...")
 
     def testCode(self):
-        config = getConfig(0,formdir + "\configwx", "test.conf","gzwl_url")  # 获取前台url
+        config = getConfig(0,formdir + "\configwx", "baseData.conf","gzwl_url")  # 获取前台url
         request_url = "/home/hot-car"
         url = config + request_url
         headers = {
@@ -52,7 +52,7 @@ class MyTestSuite(unittest.TestCase):
 
     def testDatamatch(self):
         # 返回结果验证
-        config = getConfig(0,formdir + "\configwx", "test.conf","gzwl_url")  # 获取前台url
+        config = getConfig(0,formdir + "\configwx", "baseData.conf","gzwl_url")  # 获取前台url
         request_url = "/home/hot-car"
         url = config + request_url
         headers = {

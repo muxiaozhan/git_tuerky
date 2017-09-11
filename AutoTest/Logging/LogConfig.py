@@ -20,7 +20,7 @@ def LogAdd(mat):
         # os.mknod(pathDetail,'w')
         for file in i[2:3][0]:
             open(pathDetail, 'w')
-            CONF = formdir + '\\test.conf'
+            CONF = formdir + '\\baseData.conf'
             logging.config.fileConfig(CONF)
             Log = logging.getLogger(name='root')
             #fh = logging.FileHandler('D:\AutoTest\Logging\DateLog\%s.log' % nowTime)

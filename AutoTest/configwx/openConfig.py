@@ -33,4 +33,4 @@ def getConfig (forward,filePath,fileName,key): #forward 参数0是前台，1是�
 
 
 if __name__ == '__main__':
- getConfig(1,filePath='D:/AutoTest/configwx',fileName='test.conf',key="gzwl_url")
+ getConfig(1,filePath='D:/AutoTest/configwx',fileName='baseData.conf',key="gzwl_url")

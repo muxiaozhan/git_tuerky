@@ -11,7 +11,7 @@ from configwx.openConfig import getConfig
 
 def sqllink(db,sql):
     formdir = os.path.dirname(os.getcwd())
-    configdata = getConfig(2,formdir + "\configwx", "test.conf",db)
+    configdata = getConfig(2,formdir + "\configwx", "baseData.conf",db)
     connection = pymysql.connect(**configdata)  # 数据库的链接
     # cur = connection.cursor()  # 获取一个游标
     try:

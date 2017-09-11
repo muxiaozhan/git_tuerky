@@ -22,7 +22,7 @@ def check_if_python(fileName):
 
 def create_selection_file(selection):
 	filePath = os.path.join(curPath,'all_scripts_selection.txt')
-	file = open(filePath,'w')
+	file = open(filePath,'w',encoding= 'utf-8')
 	for scriptPath in selection:
 		file.write(scriptPath+'\n')
 	file.close()
