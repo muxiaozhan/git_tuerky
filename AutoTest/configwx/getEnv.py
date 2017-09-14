@@ -11,7 +11,6 @@ def getVariable(key):
     fd = open(envPath, 'r')
 
     for i in fd.readlines():
-
         if i.split(':')[0] == key:  # 判断键重复
            value = i.split(':')[1]
            break

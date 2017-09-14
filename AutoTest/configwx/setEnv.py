@@ -8,7 +8,6 @@ formdir = os.path.dirname(os.getcwd())  # 获取上一级目录
 
 
 def setVariable(key,value):
-
     envPath = os.path.join(curPath,"envariable.txt")
     fd= open(envPath,'r')
     lines = []
@@ -20,7 +19,6 @@ def setVariable(key,value):
     for i in fd.readlines():
        n+= 1
        if i.split(':')[0] == key: #判断键重复
-
          if n == len(lines):
           modify = key + ':' + value
          else:

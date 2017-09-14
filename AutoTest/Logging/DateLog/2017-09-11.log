@@ -18,3 +18,15 @@
 2017-09-11 15:15:55 PM -root-INFO-gzwl_frame-test_appOrder-[line:125]:本次生成的旅游订单code为：XLYD20170911000078
 2017-09-11 15:16:08 PM -root-INFO-gzwl_HotCar-testCode-[line:46]:Success:Status code is 200
 2017-09-11 15:16:08 PM -root-INFO-gzwl_HotCar-testDatamatch-[line:101]:Success:数据查询无误！
+2017-09-11 19:20:06 PM -root-INFO-gzwl_frame-test_appOrder-[line:70]:登录成功！
+2017-09-11 19:20:32 PM -root-INFO-gzwl_frame-test_appOrder-[line:124]:本次生成的旅游订单code为：XLYD20170911000079
+2017-09-11 19:20:45 PM -root-INFO-gzwl_HotCar-testCode-[line:46]:Success:Status code is 200
+2017-09-11 19:20:45 PM -root-INFO-gzwl_HotCar-testDatamatch-[line:101]:Success:数据查询无误！
+2017-09-11 19:23:02 PM -root-INFO-gzwl_frame-test_appOrder-[line:70]:登录成功！
+2017-09-11 19:23:27 PM -root-INFO-gzwl_frame-test_appOrder-[line:124]:本次生成的旅游订单code为：XLYD20170911000080
+2017-09-11 19:23:39 PM -root-INFO-gzwl_HotCar-testCode-[line:46]:Success:Status code is 200
+2017-09-11 19:23:39 PM -root-INFO-gzwl_HotCar-testDatamatch-[line:101]:Success:数据查询无误！
+2017-09-11 19:25:40 PM -root-INFO-gzwl_frame-test_appOrder-[line:70]:登录成功！
+2017-09-11 19:26:06 PM -root-INFO-gzwl_frame-test_appOrder-[line:124]:本次生成的旅游订单code为：XLYD20170911000081
+2017-09-11 19:26:18 PM -root-INFO-gzwl_HotCar-testCode-[line:46]:Success:Status code is 200
+2017-09-11 19:26:18 PM -root-INFO-gzwl_HotCar-testDatamatch-[line:101]:Success:数据查询无误！
