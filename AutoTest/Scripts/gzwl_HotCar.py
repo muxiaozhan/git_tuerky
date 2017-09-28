@@ -24,7 +24,7 @@ import json
 import traceback
 import requests
 import time
-import pymysql.cursors
+#import pymysql.cursors
 from decimal import Decimal
 
 
