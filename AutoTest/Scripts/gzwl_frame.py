@@ -10,7 +10,6 @@ formdir = os.path.dirname(os.getcwd())  # 获取上一级目录
 
 import unittest
 import datetime
-
 nowTime = datetime.datetime.now().strftime('%Y-%m-%d')
 import logging
 
@@ -26,8 +25,8 @@ from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
-from selenium.webdriver.common.action_chains import ActionChains
-from selenium.webdriver.common.keys import Keys
+#from selenium.webdriver.common.action_chains import ActionChains
+#from selenium.webdriver.common.keys import Keys
 import time
 
 options = webdriver.ChromeOptions()
@@ -85,7 +84,7 @@ class MyTestSuite(unittest.TestCase):
       try:
           WebDriverWait(browser, 20, 0.5).until(
               EC.presence_of_element_located(Locat))  # 每隔0.5秒判断是否存在对应元素，20秒期限
-          browser.find_element_by_xpath("//div[@class=\"month-data\"]/div[4]/div[6]/div[2]").click()
+          browser.find_element_by_xpath("//div[@class=\"month-data\"]/div[@class=\"month-week-row\"]/div[@class=\"day-cell active price-data stock-data\"]/div[text()=\"今天\"]").click()
       finally:
           pass
       time.sleep(2)

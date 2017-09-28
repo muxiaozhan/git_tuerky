@@ -1,0 +1,17 @@
+2017-09-25 10:23:51 AM -root-INFO-gzwl_frame-test_appOrder-[line:71]:登录成功！
+2017-09-25 10:24:14 AM -root-INFO-gzwl_frame-test_rebackOrder-[line:222]:XLYD20170913000098旅游订单已提交退款！
+2017-09-25 10:24:36 AM -root-INFO-gzwl_HotCar-testCode-[line:46]:Success:Status code is 200
+2017-09-25 10:24:36 AM -root-INFO-gzwl_HotCar-testDatamatch-[line:101]:Success:数据查询无误！
+2017-09-25 10:47:39 AM -root-INFO-gzwl_frame-test_appOrder-[line:71]:登录成功！
+2017-09-25 10:48:05 AM -root-INFO-gzwl_frame-test_appOrder-[line:126]:本次生成的旅游订单code为：XLYD20170925000104
+2017-09-25 10:48:21 AM -root-INFO-gzwl_frame-test_rebackOrder-[line:222]:XLYD20170925000104旅游订单已提交退款！
+2017-09-25 10:48:52 AM -root-INFO-gzwl_frame-test_appOrder-[line:126]:本次生成的旅游订单code为：XLYD20170925000105
+2017-09-25 10:49:03 AM -root-INFO-gzwl_frame-test_backOrder-[line:166]:XLYD20170925000105旅游订单已完成！
+2017-09-25 10:49:04 AM -root-INFO-gzwl_HotCar-testCode-[line:46]:Success:Status code is 200
+2017-09-25 10:49:04 AM -root-INFO-gzwl_HotCar-testDatamatch-[line:101]:Success:数据查询无误！
+2017-09-25 10:57:05 AM -root-INFO-gzwl_frame-test_appOrder-[line:71]:登录成功！
+2017-09-25 10:57:30 AM -root-INFO-gzwl_frame-test_appOrder-[line:126]:本次生成的旅游订单code为：XLYD20170925000106
+2017-09-25 10:57:47 AM -root-INFO-gzwl_frame-test_rebackOrder-[line:223]:XLYD20170925000106旅游订单已提交退款！
+2017-09-25 10:58:18 AM -root-INFO-gzwl_frame-test_appOrder-[line:126]:本次生成的旅游订单code为：XLYD20170925000107
+2017-09-25 10:58:30 AM -root-INFO-gzwl_HotCar-testCode-[line:46]:Success:Status code is 200
+2017-09-25 10:58:30 AM -root-INFO-gzwl_HotCar-testDatamatch-[line:101]:Success:数据查询无误！

@@ -91,7 +91,7 @@ class MyTestSuite(unittest.TestCase):
                     elif data[j].get('id') == data[-1].get('id'):
                         logging.info(u"Check error:id为%s的房车未在数据库中查询到！" % d)  # api的数据在数据库查询的结果中没有找到，说明数据有问题
                         raise Exception(u"Check error:id为%s的房车未在数据库中查询到！" % d)
-                        break
+
                     else:
                         continue
         if n < lenapi:

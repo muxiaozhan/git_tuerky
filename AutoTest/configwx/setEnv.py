@@ -23,14 +23,14 @@ def setVariable(key,value):
           modify = key + ':' + value
          else:
           modify = key + ':' + value + '\n'
-         lines[n-1] =  modify#判断时不是以|n为判断值的，修改是需要加上
+         lines[n-1] =  modify#判断时不是以\n为判断值的，修改是需要加上
          s = "".join(lines)
          n = -1  # 标记流程的进出
          fw = open(envPath, 'w')
          fw.write(s)
          break
     if n == len(lines):
-        lines.append('\n' + key + ':' + value)
+        lines.append('\n' + key + ':' + value)   #或者直接使用‘a’模式打开文件，追加到文件末尾
         p = "".join(lines)
         fc = open(envPath, 'w')
         fc.write(p)
