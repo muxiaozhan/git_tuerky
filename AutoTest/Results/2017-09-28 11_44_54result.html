@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-09-12 15:52:06</p>
-<p class='attribute'><strong>Duration:</strong> 0:01:00.332644</p>
-<p class='attribute'><strong>Status:</strong> Pass 2 Error 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2017-09-28 11:44:54</p>
+<p class='attribute'><strong>Duration:</strong> 0:00:00.625375</p>
+<p class='attribute'><strong>Status:</strong> Pass 2</p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -221,136 +221,31 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
+<tr class='passClass'>
     <td>MyTestSuite</td>
-    <td>4</td>
+    <td>2</td>
     <td>2</td>
     <td>0</td>
-    <td>2</td>
-    <td><a href="javascript:showClassDetail('c1',4)">Detail</a></td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_appOrder</div></td>
+    <td class='none'><div class='testcase'>testCode</div></td>
     <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='pt1.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_rebackOrder</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.2')" >
-        pass</a>
-
-    <div id='div_pt1.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt1.2: 
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='ft1.3' class='none'>
-    <td class='errorCase'><div class='testcase'>test_appOrder</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
-        error</a>
-
-    <div id='div_ft1.3' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.3: Traceback (most recent call last):
-  File "D:/AutoTest/Scripts/gzwl_frame.py", line 51, in test_appOrder
-    browser.find_element_by_xpath("//a[@href=\"/account/entry/sign\"]").click()
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 77, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 493, in _execute
-    return self._parent.execute(command, params)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 249, in execute
-    self.error_handler.check_response(response)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 193, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
-  (Session info: chrome=60.0.3112.113)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64)
-
-Traceback (most recent call last):
-  File "D:/AutoTest/Scripts/gzwl_frame.py", line 51, in test_appOrder
-    browser.find_element_by_xpath("//a[@href=\"/account/entry/sign\"]").click()
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 77, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 493, in _execute
-    return self._parent.execute(command, params)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 249, in execute
-    self.error_handler.check_response(response)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 193, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.ElementNotVisibleException: Message: element not visible
-  (Session info: chrome=60.0.3112.113)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64)
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='ft1.4' class='none'>
-    <td class='errorCase'><div class='testcase'>test_backOrder</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.4')" >
-        error</a>
-
-    <div id='div_ft1.4' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.4').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.4: Traceback (most recent call last):
-  File "D:/AutoTest/Scripts/gzwl_frame.py", line 141, in test_backOrder
-    "//div[@class=\"sidebar\"]/ul[@class=\"el-menu\"]/li[3]/ul[@class=\"el-menu\"]/li[3]").click()
-AttributeError: 'NoneType' object has no attribute 'click'
-Traceback (most recent call last):
-  File "D:/AutoTest/Scripts/gzwl_frame.py", line 141, in test_backOrder
-    "//div[@class=\"sidebar\"]/ul[@class=\"el-menu\"]/li[3]/ul[@class=\"el-menu\"]/li[3]").click()
-AttributeError: 'NoneType' object has no attribute 'click'
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+    <td class='none'><div class='testcase'>testDatamatch</div></td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>4</td>
+    <td>2</td>
     <td>2</td>
     <td>0</td>
-    <td>2</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>

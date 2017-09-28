@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2017-09-12 16:47:08</p>
-<p class='attribute'><strong>Duration:</strong> 0:01:10.481613</p>
-<p class='attribute'><strong>Status:</strong> Pass 2 Error 2</p>
+<p class='attribute'><strong>Start Time:</strong> 2017-09-28 11:43:10</p>
+<p class='attribute'><strong>Duration:</strong> 0:01:43.015700</p>
+<p class='attribute'><strong>Status:</strong> Pass 4</p>
 
 <p class='description'>用例执行情况：</p>
 </div>
@@ -221,12 +221,12 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='errorClass'>
+<tr class='passClass'>
     <td>MyTestSuite</td>
     <td>4</td>
-    <td>2</td>
+    <td>4</td>
     <td>0</td>
-    <td>2</td>
+    <td>0</td>
     <td><a href="javascript:showClassDetail('c1',4)">Detail</a></td>
 </tr>
 
@@ -259,104 +259,27 @@ pt1.2:
     </td>
 </tr>
 
-<tr id='ft1.3' class='none'>
-    <td class='errorCase'><div class='testcase'>test_appOrder</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
-        error</a>
-
-    <div id='div_ft1.3' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-ft1.3: Traceback (most recent call last):
-  File "D:/AutoTest/Scripts/gzwl_frame.py", line 88, in test_appOrder
-    browser.find_element_by_xpath("//div[@class=\"month-data\"]/div[4]/div[6]/div[2]").click()
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 77, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 493, in _execute
-    return self._parent.execute(command, params)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 249, in execute
-    self.error_handler.check_response(response)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 193, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: unknown error: Element &lt;div class="day-price"&gt;...&lt;/div&gt; is not clickable at point (374, 327). Other element would receive the click: &lt;div class="day-cell price-data stock-data"&gt;...&lt;/div&gt;
-  (Session info: chrome=60.0.3112.113)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64)
-
-Traceback (most recent call last):
-  File "D:/AutoTest/Scripts/gzwl_frame.py", line 88, in test_appOrder
-    browser.find_element_by_xpath("//div[@class=\"month-data\"]/div[4]/div[6]/div[2]").click()
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 77, in click
-    self._execute(Command.CLICK_ELEMENT)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webelement.py", line 493, in _execute
-    return self._parent.execute(command, params)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 249, in execute
-    self.error_handler.check_response(response)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 193, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.WebDriverException: Message: unknown error: Element &lt;div class="day-price"&gt;...&lt;/div&gt; is not clickable at point (374, 327). Other element would receive the click: &lt;div class="day-cell price-data stock-data"&gt;...&lt;/div&gt;
-  (Session info: chrome=60.0.3112.113)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64)
-
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+<tr id='pt1.3' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_appOrder</div></td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='ft1.4' class='none'>
-    <td class='errorCase'><div class='testcase'>test_backOrder</div></td>
+<tr id='pt1.4' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_backOrder</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.4')" >
-        error</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.4')" >
+        pass</a>
 
-    <div id='div_ft1.4' class="popup_window">
+    <div id='div_pt1.4' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.4').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.4').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.4: Traceback (most recent call last):
-  File "D:/AutoTest/Scripts/gzwl_frame.py", line 154, in test_backOrder
-    browser.execute_script("arguments[0].scrollIntoView();", target)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 484, in execute_script
-    'args': converted_args})['value']
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 249, in execute
-    self.error_handler.check_response(response)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 193, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=60.0.3112.113)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64)
-
-Traceback (most recent call last):
-  File "D:/AutoTest/Scripts/gzwl_frame.py", line 154, in test_backOrder
-    browser.execute_script("arguments[0].scrollIntoView();", target)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 484, in execute_script
-    'args': converted_args})['value']
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 249, in execute
-    self.error_handler.check_response(response)
-  File "C:\python3\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 193, in check_response
-    raise exception_class(message, screen, stacktrace)
-selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=60.0.3112.113)
-  (Driver info: chromedriver=2.31.488763 (092de99f48a300323ecf8c2a4e2e7cab51de5ba8),platform=Windows NT 10.0.14393 x86_64)
-
-
+pt1.4: 
 
         </pre>
     </div>
@@ -368,9 +291,9 @@ from unknown error: web view not found
 <tr id='total_row'>
     <td>Total</td>
     <td>4</td>
-    <td>2</td>
+    <td>4</td>
     <td>0</td>
-    <td>2</td>
+    <td>0</td>
     <td>&nbsp;</td>
 </tr>
 </table>
